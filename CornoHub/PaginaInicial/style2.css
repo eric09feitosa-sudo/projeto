@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(10deg, black, #333);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 100dvh;
+    flex-direction: column;
+}
+
+i#burguer{
+    background: linear-gradient(10deg, black, #333);
+    color: rgb(220, 121, 1);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 7px;
+    display: block;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: linear-gradient(10deg, rgb(53, 53, 52), rgb(0, 0, 0));
+    width: 200px;
+    height: 500px;
+    margin-left: -40px;   
+    padding:35px; 
+    border: 1px solid rgb(220, 121, 1);
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: bold;
+    margin-left: -25px;
+    border: 1px solid rgb(220, 121, 1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+li a{
+    display: block;
+    width: 200px;
+}
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    max-width: 400px;
+    height: 100vh;
+    transform: translate(-100%);
+    transition: ease 1s;
+    z-index: 999;
+}
+
+#menu.ativo {
+    transform: translate(0);
+}
+
+#burguer.ativo{
+    position: fixed;
+    top: 10px;
+    left:10px;
+    transform: translateX(267px);
+    transition: all ease 1s;
+    z-index: 1000;
+}
+
+#pesquisar {
+    position: fixed;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 500px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: black;
+    color: rgba(220, 133, 1);
+    border: none;
+    z-index: 500;
+    box-shadow: 0px 0px 10px rgb(71, 47, 1);
+}
+
+@media (max-width: 600px) {
+    #pesquisar {
+        width: 95%;
+        top: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+::placeholder{
+    color: orange;
+}
+
+
+
+
+
+
+
