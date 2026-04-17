@@ -34,7 +34,7 @@ label{
   height: 250px;
   width: 350px;
   box-shadow: 0px 0px 30px rgba(199, 172, 151, 0.792);
-  margin-left: -10px;
+  margin-left: -28px;
 }
 
 input{
@@ -61,6 +61,7 @@ input:active{
     margin-bottom: 20px;
     color: white; 
     text-shadow: -8px 2px 5px #d28526; 
+    font-size: clamp( 20px, 8vw, 50px)
 }
 
 .laranja{
@@ -69,18 +70,20 @@ input:active{
     background-color: rgb(220, 133, 11);
     color: black;
     text-shadow: -1px 3px 7px #000000;
+    font-size: clamp( 20px, 8vw, 50px)
 }
 
 h1{
     margin-bottom: 30px;
-    margin-left: 82vh;
-    transform: translateY(15px);  
+    margin-left: 85vh;
+    transform: translateY(15px); 
+   
 }
 
 p{
    font-size: 16px;
    font-weight: bold;
-   margin-left: -10px;
+   margin-left: -26px;
 
     background: linear-gradient(270deg, white, rgb(220, 133, 11), white, rgb(220, 133, 11));
     background-size: 400% 400%;
@@ -115,7 +118,7 @@ p{
     cursor: pointer;
     margin-top: 10px;
     transition: all 0.3s ease;
-    margin-left: -10px;
+    margin-left: -27px;
 }
 .btn:hover{
     transform: scale(1.05);
@@ -132,7 +135,6 @@ p{
     position: fixed;
     width: 1570px;
     border-radius: 20px;
-    
 
 }
 
