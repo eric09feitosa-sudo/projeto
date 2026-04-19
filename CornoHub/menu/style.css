@@ -86,7 +86,7 @@ h1{
 p{
    font-size: 16px;
    font-weight: bold;
-   margin-left: -26px;
+   margin-left: -9px;
 
     background: linear-gradient(270deg, white, rgb(220, 133, 11), white, rgb(220, 133, 11));
     background-size: 400% 400%;
@@ -132,16 +132,19 @@ p{
     transform: scale(0.95);
 }
 
-.titulo {
+.titulo{
     background: linear-gradient(10deg, black, #333);
-    padding: 20px;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    padding: 20px;
     border-radius: 0 0 20px 20px;
-    text-align: center;
-}
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
