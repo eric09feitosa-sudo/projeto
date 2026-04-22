@@ -12,6 +12,9 @@ function login() {
     else if(!emailvalido) {
         alert("email invalido meu bem, tente novamente");
     }
+     else if(isNaN(idade)){
+        alert("so pode numeros!!!")
+    }
     else if(idade<18){
         alert("você é de menor safado")
     }
