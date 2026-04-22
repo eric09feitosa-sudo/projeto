@@ -78,10 +78,18 @@ input:active{
     text-align: center;
 }
 
+@media (max-width: 768px){
+    .branco,
+    .laranja{
+        font-size: 2.5rem; 
+    }
+}
+
 h1{
     margin-bottom: 30px;
     margin-top: 40px;
     text-align: center;
+    max-width: max-content;
 }
 
 p{
